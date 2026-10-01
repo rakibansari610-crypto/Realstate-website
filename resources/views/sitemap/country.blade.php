@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<sitemap>
+    <loc>{{ url('sitemap-'.$countrySlug.'-projects.xml') }}</loc>
+</sitemap>
+
+<sitemap>
+    <loc>{{ url('sitemap-'.$countrySlug.'-properties.xml') }}</loc>
+</sitemap>
+
+<sitemap>
+    <loc>{{ url('sitemap-'.$countrySlug.'-pages.xml') }}</loc>
+</sitemap>
+
+<sitemap>
+    <loc>{{ url('sitemap-'.$countrySlug.'-news.xml') }}</loc>
+</sitemap>
+
+</sitemapindex>
